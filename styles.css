@@ -1006,7 +1006,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Contact CTA Section (Homepage) */
 .contact-cta-section {
     padding: var(--spacing-5xl) 0;
-    background: var(--color-primary);
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
     color: var(--color-white);
 }
 
