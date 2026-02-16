@@ -1,10 +1,36 @@
 # Cloudflare Pages Redirects
+# Documentation: https://developers.cloudflare.com/pages/configuration/redirects/
 
-# Redirect www to non-www (if using custom domain)
-# https://www.telexal.fr/* https://telexal.fr/:splat 301
+# =============================================
+# Anciennes URLs (ancien site) → Nouvelles URLs
+# =============================================
+# Ces redirections récupèrent le SEO des anciennes pages indexées par Google
 
-# Old URL redirects (if needed in future)
-# /ancien-lien /nouveau-lien 301
+/domiciliation-commerciale  /domiciliation.html  301
+/domiciliation-commerciale/  /domiciliation.html  301
+/salle-de-reunion  /salle-de-reunion.html  301
+/permanence-telephonique  /permanence-telephonique.html  301
+/secretariat  /secretariat.html  301
+/bureaux-equipes  /bureaux-equipes.html  301
+/qui-sommes-nous  /qui-sommes-nous.html  301
+/photos  /photos.html  301
+/contact  /contact.html  301
+/mentions-legales  /mentions-legales.html  301
+/form/demande-de-devis  /contact.html  301
+/node/28  /qui-sommes-nous.html  301
 
-# 404 fallback
+# =============================================
+# Anciennes URLs buro-services.com (format Drupal)
+# =============================================
+/node/1  /  301
+/node/2  /bureaux-equipes.html  301
+/node/3  /domiciliation.html  301
+/node/4  /permanence-telephonique.html  301
+/node/5  /secretariat.html  301
+/node/6  /salle-de-reunion.html  301
+/node/7  /photos.html  301
+
+# =============================================
+# 404 fallback (doit rester en dernier)
+# =============================================
 /* /404.html 404
