@@ -17,7 +17,6 @@
 /contact  /contact.html  301
 /mentions-legales  /mentions-legales.html  301
 /form/demande-de-devis  /contact.html  301
-/node/28  /qui-sommes-nous.html  301
 
 # =============================================
 # Anciennes URLs buro-services.com (format Drupal)
@@ -29,8 +28,4 @@
 /node/5  /secretariat.html  301
 /node/6  /salle-de-reunion.html  301
 /node/7  /photos.html  301
-
-# =============================================
-# 404 fallback (doit rester en dernier)
-# =============================================
-/* /404.html 404
+/node/28  /qui-sommes-nous.html  301
