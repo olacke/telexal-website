@@ -1,21 +1,16 @@
 # Cloudflare Pages Redirects
 # Documentation: https://developers.cloudflare.com/pages/configuration/redirects/
+#
+# IMPORTANT: Ne PAS ajouter de redirections /page → /page.html
+# Cloudflare Pages gère automatiquement les "clean URLs"
+# (bureaux-equipes → bureaux-equipes.html est automatique)
 
 # =============================================
-# Anciennes URLs (ancien site) → Nouvelles URLs
+# Anciennes URLs avec nom DIFFERENT → Nouvelles
 # =============================================
-# Ces redirections récupèrent le SEO des anciennes pages indexées par Google
 
 /domiciliation-commerciale  /domiciliation.html  301
 /domiciliation-commerciale/  /domiciliation.html  301
-/salle-de-reunion  /salle-de-reunion.html  301
-/permanence-telephonique  /permanence-telephonique.html  301
-/secretariat  /secretariat.html  301
-/bureaux-equipes  /bureaux-equipes.html  301
-/qui-sommes-nous  /qui-sommes-nous.html  301
-/photos  /photos.html  301
-/contact  /contact.html  301
-/mentions-legales  /mentions-legales.html  301
 /form/demande-de-devis  /contact.html  301
 
 # =============================================
