@@ -1,11 +1,11 @@
 # Robots.txt pour Telexal Buro Services
-# https://telexal.fr
+# https://www.telexal.fr
 
 User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://telexal.fr/sitemap.xml
+Sitemap: https://www.telexal.fr/sitemap.xml
 
 # LLMs.txt - Documentation pour les IA
 # https://llmstxt.org/
