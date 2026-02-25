@@ -1829,30 +1829,71 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: var(--spacing-sm);
 }
 
-.modal-info {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: var(--spacing-sm);
-    margin-top: var(--spacing-lg);
-    padding-top: var(--spacing-lg);
-    border-top: 1px solid var(--color-gray-200);
-    font-size: 0.9rem;
-    color: var(--color-gray-600);
+/* Modal Phone CTA - Primary */
+.modal-phone-cta {
+    text-align: center;
+    padding: var(--spacing-md) var(--spacing-sm);
+    background: linear-gradient(135deg, #f0f7ff 0%, #e8f4f8 100%);
+    border-radius: 12px;
+    margin-bottom: var(--spacing-md);
 }
 
-.modal-info svg {
-    color: var(--color-accent);
+.modal-phone-label {
+    font-size: 0.9rem;
+    color: var(--color-gray-600);
+    margin-bottom: var(--spacing-sm);
+}
+
+.modal-phone-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 32px;
+    background: var(--color-accent);
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+    letter-spacing: 0.5px;
+}
+
+.modal-phone-btn:hover {
+    background: #1a5cb0;
+    transform: translateY(-1px);
+}
+
+.modal-phone-btn svg {
     flex-shrink: 0;
 }
 
-.modal-info a {
-    color: var(--color-accent);
-    font-weight: 600;
+.modal-phone-hours {
+    font-size: 0.8rem;
+    color: var(--color-gray-500);
+    margin-top: 8px;
 }
 
-.modal-info a:hover {
-    text-decoration: underline;
+/* Modal Separator */
+.modal-separator {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin: var(--spacing-sm) 0;
+    color: var(--color-gray-400);
+    font-size: 0.85rem;
+}
+
+.modal-separator::before,
+.modal-separator::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--color-gray-200);
+}
+
+.modal-separator span {
+    white-space: nowrap;
 }
 
 /* Form Success State */
