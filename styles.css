@@ -1293,6 +1293,32 @@ h1, h2, h3, h4, h5, h6 {
     width: 18px;
     height: 18px;
 }
+.footer-prefecture {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 20px;
+    margin-bottom: 20px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 8px;
+}
+
+.footer-prefecture-logo {
+    width: 50px;
+    height: auto;
+    flex-shrink: 0;
+    filter: brightness(0) invert(1);
+    opacity: 0.85;
+}
+
+.footer-prefecture p {
+    font-size: 0.8125rem;
+    color: rgba(255,255,255,0.7);
+    line-height: 1.5;
+    margin: 0;
+}
+
 .footer-bottom {
     padding-top: var(--spacing-2xl);
     border-top: 1px solid rgba(255,255,255,0.1);
