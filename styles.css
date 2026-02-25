@@ -1814,6 +1814,63 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: var(--spacing-xl);
 }
 
+/* Phone CTA Block */
+.modal-phone-cta {
+    text-align: center;
+    padding: 1.25rem;
+    background: #f0f7ff;
+    border-radius: 12px;
+    margin-bottom: 1.25rem;
+}
+.modal-phone-label {
+    font-size: 0.875rem;
+    color: var(--color-text-light);
+    margin-bottom: 0.75rem;
+}
+.modal-phone-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 32px;
+    background: #1a73e8;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background 0.2s, transform 0.1s;
+    letter-spacing: 0.5px;
+}
+.modal-phone-button:hover {
+    background: #1557b0;
+    transform: translateY(-1px);
+}
+.modal-phone-button svg {
+    flex-shrink: 0;
+}
+.modal-phone-hours {
+    font-size: 0.8125rem;
+    color: var(--color-text-light);
+    margin-top: 0.5rem;
+}
+
+/* Separator */
+.modal-separator {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 1.25rem 0;
+    color: var(--color-text-light);
+    font-size: 0.8125rem;
+}
+.modal-separator::before,
+.modal-separator::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: #e0e0e0;
+}
+
 .modal-form {
     display: flex;
     flex-direction: column;
