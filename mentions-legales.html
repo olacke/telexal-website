@@ -239,6 +239,7 @@
                 <input type="hidden" name="access_key" value="ef3cd28d-b6c3-4359-96dd-dd25eaeab515">
                 <input type="hidden" name="subject" value="Nouvelle demande - Telexal Buro Services">
                 <input type="hidden" name="from_name" value="Telexal Website">
+                <input type="hidden" name="redirect" value="https://www.telexal.fr/contact?sent=1">
                 <input type="checkbox" name="botcheck" class="hidden" style="display:none">
                 <div class="form-group">
                     <label for="modal-name">Nom / Prénom *</label>
@@ -333,62 +334,14 @@
             if (e.key === 'Escape') closeModal();
         });
 
-        // Form submission via Web3Forms API
-        if (contactForm) {
-            contactForm.addEventListener('submit', async (e) => {
-                e.preventDefault();
-                const formData = new FormData(contactForm);
-                const submitBtn = contactForm.querySelector('button[type="submit"]');
-                const originalText = submitBtn.textContent;
-
-                submitBtn.textContent = 'Envoi en cours...';
-                submitBtn.disabled = true;
-
-                try {
-                    const object = {};
-                    formData.forEach((value, key) => { object[key] = value; });
-                    const response = await fetch('https://api.web3forms.com/submit', {
-                        method: 'POST',
-                        headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-                        body: JSON.stringify(object)
-                    });
-                    const result = await response.json();
-
-                    if (result.success) {
-                        contactForm.innerHTML = `
-                            <div class="form-success">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-                                <h3>Message envoyé !</h3>
-                                <p>Nous vous recontacterons dans les plus brefs délais.</p>
-                                <button type="button" class="btn btn-primary" onclick="closeModal()">Fermer</button>
-                            </div>
-                        `;
-                    } else {
-                        throw new Error(result.message);
-                    }
-                } catch (error) {
-                    submitBtn.textContent = originalText;
-                    submitBtn.disabled = false;
-                    const name = formData.get('name') || '';
-                    const email = formData.get('email') || '';
-                    const phone = formData.get('phone') || '';
-                    const msg = formData.get('message') || '';
-                    const mailBody = 'Nom: ' + name + '%0ATéléphone: ' + phone + '%0AEmail: ' + email + '%0AMessage: ' + msg;
-                    const mailLink = 'mailto:contact@telexal.fr?subject=Demande depuis le site&body=' + mailBody;
-                    contactForm.innerHTML = `
-                        <div style="text-align:center; padding:1rem 0;">
-                            <p style="color:#c0392b; font-weight:600; margin-bottom:0.75rem;">Le formulaire n'a pas pu être envoyé.</p>
-                            <p style="color:#555; margin-bottom:1rem;">Vous pouvez nous contacter directement :</p>
-                            <a href="tel:+33388183737" style="display:inline-flex; align-items:center; gap:8px; padding:12px 24px; background:#0066cc; color:#fff; font-weight:700; border-radius:8px; text-decoration:none; font-size:1.1rem; margin-bottom:0.75rem;">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-                                03 88 18 37 37
-                            </a>
-                            <br>
-                            <a href="${mailLink}" style="display:inline-block; margin-top:0.5rem; color:#0066cc; text-decoration:underline;">Ou envoyer un email à contact@telexal.fr</a>
-                        </div>
-                    `;
-                }
-            });
+        // Show success message if redirected back after form submission
+        if (window.location.search.includes('sent=1')) {
+            const msg = document.createElement('div');
+            msg.style.cssText = 'position:fixed;top:0;left:0;right:0;padding:16px;background:#27ae60;color:#fff;text-align:center;font-weight:600;z-index:9999;font-size:1rem;';
+            msg.textContent = '\u2705 Message envoy\u00e9 ! Nous vous recontacterons rapidement.';
+            document.body.prepend(msg);
+            setTimeout(() => msg.remove(), 6000);
+            history.replaceState(null, '', window.location.pathname);
         }
     </script>
 </body>
