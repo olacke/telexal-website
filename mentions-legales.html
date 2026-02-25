@@ -102,14 +102,11 @@
                     <li><strong>Dénomination sociale :</strong> Telexal</li>
                     <li><strong>Nom commercial :</strong> Telexal Buro Services</li>
                     <li><strong>SIREN :</strong> 943 106 617</li>
-                    <li><strong>SIRET (siège) :</strong> 943 106 617 00021</li>
-                    <li><strong>SIRET (établissement principal) :</strong> 943 106 617 00039</li>
-                    <li><strong>Code APE :</strong> 70.10Z — Activités des sièges sociaux</li>
+                    <li><strong>Code APE :</strong> 70.10Z - Activités des sièges sociaux</li>
                     <li><strong>Siège social :</strong> 2 rue Thomas Edison, 67450 Mundolsheim</li>
                     <li><strong>Téléphone :</strong> <a href="tel:+33388183737">03 88 18 37 37</a></li>
                     <li><strong>E-mail :</strong> <a href="mailto:contact@telexal.fr">contact@telexal.fr</a></li>
                 </ul>
-                <p>Directrice de la publication : Madame Véronique Schnell.</p>
             </section>
 
             <section class="legal-section">
@@ -138,12 +135,12 @@
 
             <section class="legal-section">
                 <h2>Protection des données personnelles</h2>
-                <p>Conformément au Règlement Général sur la Protection des Données (RGPD — Règlement UE 2016/679), Telexal s'engage à protéger les données personnelles collectées via ce site. La collecte est limitée au strict nécessaire (nom, e-mail, téléphone) dans le cadre des demandes de contact et de devis.</p>
+                <p>Conformément au Règlement Général sur la Protection des Données (RGPD - Règlement UE 2016/679), Telexal s'engage à protéger les données personnelles collectées via ce site. La collecte est limitée au strict nécessaire (nom, e-mail, téléphone) dans le cadre des demandes de contact et de devis.</p>
                 <p>Aucune donnée n'est transmise à des tiers ni transférée hors de l'Union Européenne.</p>
                 <p>Vous disposez d'un droit d'accès, de rectification, d'effacement et de portabilité de vos données, ainsi que d'un droit d'opposition et de limitation du traitement. Pour exercer ces droits :</p>
                 <ul>
                     <li><strong>Par e-mail :</strong> <a href="mailto:contact@telexal.fr">contact@telexal.fr</a></li>
-                    <li><strong>Par courrier :</strong> Telexal — 2 rue Thomas Edison, 67450 Mundolsheim</li>
+                    <li><strong>Par courrier :</strong> Telexal - 2 rue Thomas Edison, 67450 Mundolsheim</li>
                 </ul>
                 <p>En cas de difficulté, vous pouvez adresser une réclamation à la <strong>CNIL</strong> (Commission Nationale de l'Informatique et des Libertés) : <a href="https://www.cnil.fr" target="_blank" rel="noopener noreferrer">www.cnil.fr</a>.</p>
             </section>
@@ -206,7 +203,8 @@
             </div>
         </div>
     </footer>
-<!-- Contact Modal -->
+
+    <!-- Contact Modal -->
     <div id="contactModal" class="modal">
         <div class="modal-overlay"></div>
         <div class="modal-content">
@@ -215,7 +213,7 @@
             </button>
             <h2>Contactez-nous</h2>
             <p class="modal-subtitle">Remplissez ce formulaire et nous vous recontacterons rapidement.</p>
-                        <form id="contactForm" class="modal-form" action="https://api.web3forms.com/submit" method="POST">
+            <form id="contactForm" class="modal-form" action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="ef3cd28d-b6c3-4359-96dd-dd25eaeab515">
                 <input type="hidden" name="subject" value="Nouvelle demande - Telexal Buro Services">
                 <input type="hidden" name="from_name" value="Telexal Website">
@@ -292,33 +290,32 @@
 
         // Contact Modal
         const modal = document.getElementById('contactModal');
-        if (modal) {
-            const modalOverlay = modal.querySelector('.modal-overlay');
-            const modalClose = modal.querySelector('.modal-close');
-            const contactForm = document.getElementById('contactForm');
+        const modalOverlay = modal.querySelector('.modal-overlay');
+        const modalClose = modal.querySelector('.modal-close');
+        const contactForm = document.getElementById('contactForm');
 
-            function openModal(e) {
-                e.preventDefault();
-                modal.classList.add('active');
-                document.body.style.overflow = 'hidden';
-            }
+        function openModal(e) {
+            e.preventDefault();
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
 
-            function closeModal() {
-                modal.classList.remove('active');
-                document.body.style.overflow = '';
-            }
+        function closeModal() {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
 
-            document.querySelectorAll('[data-modal="contact"]').forEach(btn => {
-                btn.addEventListener('click', openModal);
-            });
+        document.querySelectorAll('[data-modal="contact"]').forEach(btn => {
+            btn.addEventListener('click', openModal);
+        });
 
-            modalClose.addEventListener('click', closeModal);
-            modalOverlay.addEventListener('click', closeModal);
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape') closeModal();
-            });
+        modalClose.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', closeModal);
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
 
-                    // Form submission via Web3Forms API
+        // Form submission via Web3Forms API
         if (contactForm) {
             contactForm.addEventListener('submit', async (e) => {
                 e.preventDefault();

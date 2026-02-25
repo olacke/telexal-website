@@ -266,7 +266,8 @@
             </div>
         </div>
     </footer>
-<!-- Contact Modal -->
+
+    <!-- Contact Modal -->
     <div id="contactModal" class="modal">
         <div class="modal-overlay"></div>
         <div class="modal-content">
@@ -275,7 +276,7 @@
             </button>
             <h2>Contactez-nous</h2>
             <p class="modal-subtitle">Remplissez ce formulaire et nous vous recontacterons rapidement.</p>
-                        <form id="contactForm" class="modal-form" action="https://api.web3forms.com/submit" method="POST">
+            <form id="contactForm" class="modal-form" action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="ef3cd28d-b6c3-4359-96dd-dd25eaeab515">
                 <input type="hidden" name="subject" value="Nouvelle demande - Telexal Buro Services">
                 <input type="hidden" name="from_name" value="Telexal Website">
@@ -352,33 +353,32 @@
 
         // Contact Modal
         const modal = document.getElementById('contactModal');
-        if (modal) {
-            const modalOverlay = modal.querySelector('.modal-overlay');
-            const modalClose = modal.querySelector('.modal-close');
-            const contactForm = document.getElementById('contactForm');
+        const modalOverlay = modal.querySelector('.modal-overlay');
+        const modalClose = modal.querySelector('.modal-close');
+        const contactForm = document.getElementById('contactForm');
 
-            function openModal(e) {
-                e.preventDefault();
-                modal.classList.add('active');
-                document.body.style.overflow = 'hidden';
-            }
+        function openModal(e) {
+            e.preventDefault();
+            modal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
 
-            function closeModal() {
-                modal.classList.remove('active');
-                document.body.style.overflow = '';
-            }
+        function closeModal() {
+            modal.classList.remove('active');
+            document.body.style.overflow = '';
+        }
 
-            document.querySelectorAll('[data-modal="contact"]').forEach(btn => {
-                btn.addEventListener('click', openModal);
-            });
+        document.querySelectorAll('[data-modal="contact"]').forEach(btn => {
+            btn.addEventListener('click', openModal);
+        });
 
-            modalClose.addEventListener('click', closeModal);
-            modalOverlay.addEventListener('click', closeModal);
-            document.addEventListener('keydown', (e) => {
-                if (e.key === 'Escape') closeModal();
-            });
+        modalClose.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', closeModal);
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
 
-                    // Form submission via Web3Forms API
+        // Form submission via Web3Forms API
         if (contactForm) {
             contactForm.addEventListener('submit', async (e) => {
                 e.preventDefault();
