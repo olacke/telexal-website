@@ -60,7 +60,13 @@
                 "opens": "08:00",
                 "closes": "18:00"
             }
-        ]
+        ],
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "bestRating": "5",
+            "ratingCount": "31"
+        }
     }
     </script>
 </head>
@@ -443,28 +449,103 @@
     <!-- Testimonials Section -->
     <section class="testimonials">
         <div class="container">
-            <h2>Avis clients</h2>
-            <div class="testimonials-grid">
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Je recommande vivement Telexal et Véronique Schnell. La découverte de ses services et de sa structure me permet d'en parler à d'autres entreprises. Ce centre d'affaires aux portes de Strasbourg répond aux attentes de ceux qui souhaitent gagner en services et en agilité."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <strong>Stéphane BOURHIS</strong>
-                        <span>Dirigeant RED-ACT</span>
-                    </div>
-                </div>
-                <div class="testimonial-card">
-                    <div class="testimonial-content">
-                        <p>"Je recommande hautement et reviendrai sans hésiter ! Véronique et son équipe sont sympathiques, pro, réactives et toujours prêtes à aider. Locaux au top, grand parking et accès direct depuis l'autoroute."</p>
-                    </div>
-                    <div class="testimonial-author">
-                        <strong>Philippe FERRER</strong>
-                        <span>Directeur</span>
+            <div style="text-align:center;margin-bottom:2rem;">
+                <h2 style="margin-bottom:0.5rem;">Avis clients</h2>
+                <div style="display:inline-flex;align-items:center;gap:0.75rem;background:#fff;padding:0.75rem 1.5rem;border-radius:12px;box-shadow:0 2px 8px rgba(0,0,0,0.08);">
+                    <svg width="24" height="24" viewBox="0 0 24 24" style="flex-shrink:0;"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    <div style="text-align:left;">
+                        <div style="font-size:1.5rem;font-weight:700;color:#333;line-height:1;">4,9<span style="font-size:0.9rem;color:#666;font-weight:400">/5</span></div>
+                        <div style="color:#fbbc05;font-size:1rem;letter-spacing:1px;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <div style="font-size:0.8rem;color:#666;">31 avis Google</div>
                     </div>
                 </div>
             </div>
-
+            <div class="testimonials-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;">
+                <div class="testimonial-card" style="background:#fff;border-radius:12px;padding:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid #e8e8e8;">
+                    <div style="color:#fbbc05;font-size:0.95rem;margin-bottom:0.5rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="testimonial-content">
+                        <p style="font-size:0.95rem;line-height:1.6;color:#333;margin:0 0 1rem 0;">"Très bonne expérience avec Telexal ! L'équipe est professionnelle, réactive et à l'écoute ! C'est une entreprise fiable et efficace, avec un vrai sens du service !"</p>
+                    </div>
+                    <div class="testimonial-author" style="display:flex;align-items:center;gap:0.5rem;">
+                        <div style="width:32px;height:32px;border-radius:50%;background:#1a73e8;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:0.85rem;">T</div>
+                        <div>
+                            <strong style="font-size:0.85rem;color:#333;">Tanguy FISCHER</strong>
+                            <div style="font-size:0.75rem;color:#999;">Février 2026</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" style="background:#fff;border-radius:12px;padding:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid #e8e8e8;">
+                    <div style="color:#fbbc05;font-size:0.95rem;margin-bottom:0.5rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="testimonial-content">
+                        <p style="font-size:0.95rem;line-height:1.6;color:#333;margin:0 0 1rem 0;">"Je recommande vivement Telexal et Véronique Schnell. La découverte de ses services et de sa structure me permet d'en parler à d'autres entreprises. Ce centre d'affaires aux portes de Strasbourg répond aux attentes de ceux qui souhaitent gagner en services et en agilité."</p>
+                    </div>
+                    <div class="testimonial-author" style="display:flex;align-items:center;gap:0.5rem;">
+                        <div style="width:32px;height:32px;border-radius:50%;background:#34a853;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:0.85rem;">S</div>
+                        <div>
+                            <strong style="font-size:0.85rem;color:#333;">Stéphane BOURHIS</strong>
+                            <div style="font-size:0.75rem;color:#999;">Dirigeant RED-ACT</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" style="background:#fff;border-radius:12px;padding:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid #e8e8e8;">
+                    <div style="color:#fbbc05;font-size:0.95rem;margin-bottom:0.5rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="testimonial-content">
+                        <p style="font-size:0.95rem;line-height:1.6;color:#333;margin:0 0 1rem 0;">"Je recommande hautement et reviendrai sans hésiter ! Véronique et son équipe sont sympathiques, pro, réactives et toujours prêtes à aider. Locaux au top, grand parking et accès direct depuis l'autoroute."</p>
+                    </div>
+                    <div class="testimonial-author" style="display:flex;align-items:center;gap:0.5rem;">
+                        <div style="width:32px;height:32px;border-radius:50%;background:#ea4335;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:0.85rem;">P</div>
+                        <div>
+                            <strong style="font-size:0.85rem;color:#333;">Philippe FERRER</strong>
+                            <div style="font-size:0.75rem;color:#999;">Directeur</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" style="background:#fff;border-radius:12px;padding:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid #e8e8e8;">
+                    <div style="color:#fbbc05;font-size:0.95rem;margin-bottom:0.5rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="testimonial-content">
+                        <p style="font-size:0.95rem;line-height:1.6;color:#333;margin:0 0 1rem 0;">"Super bureaux pour bosser en toute sérénité !"</p>
+                    </div>
+                    <div class="testimonial-author" style="display:flex;align-items:center;gap:0.5rem;">
+                        <div style="width:32px;height:32px;border-radius:50%;background:#fbbc05;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:0.85rem;">P</div>
+                        <div>
+                            <strong style="font-size:0.85rem;color:#333;">Pierre-Geoffroy Pasturel</strong>
+                            <div style="font-size:0.75rem;color:#999;">Juillet 2025</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" style="background:#fff;border-radius:12px;padding:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid #e8e8e8;">
+                    <div style="color:#fbbc05;font-size:0.95rem;margin-bottom:0.5rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="testimonial-content">
+                        <p style="font-size:0.95rem;line-height:1.6;color:#333;margin:0 0 1rem 0;">"Super ambiance et super service, je recommande vivement !"</p>
+                    </div>
+                    <div class="testimonial-author" style="display:flex;align-items:center;gap:0.5rem;">
+                        <div style="width:32px;height:32px;border-radius:50%;background:#1a73e8;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:0.85rem;">A</div>
+                        <div>
+                            <strong style="font-size:0.85rem;color:#333;">Antoine</strong>
+                            <div style="font-size:0.75rem;color:#999;">Juin 2025</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" style="background:#fff;border-radius:12px;padding:1.5rem;box-shadow:0 2px 8px rgba(0,0,0,0.06);border:1px solid #e8e8e8;">
+                    <div style="color:#fbbc05;font-size:0.95rem;margin-bottom:0.5rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <div class="testimonial-content">
+                        <p style="font-size:0.95rem;line-height:1.6;color:#333;margin:0 0 1rem 0;">"Bien situé et bien agencé, un espace de travail accueillant. Bravo à toute l'équipe !"</p>
+                    </div>
+                    <div class="testimonial-author" style="display:flex;align-items:center;gap:0.5rem;">
+                        <div style="width:32px;height:32px;border-radius:50%;background:#34a853;color:#fff;display:flex;align-items:center;justify-content:center;font-weight:600;font-size:0.85rem;">R</div>
+                        <div>
+                            <strong style="font-size:0.85rem;color:#333;">Rémy Hubscher</strong>
+                            <div style="font-size:0.75rem;color:#999;">Local Guide - Juillet 2025</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="text-align:center;margin-top:2rem;">
+                <a href="https://www.google.com/maps/place/Telexal+-+Bureaux+%26+Domiciliation+-+Nord+Strasbourg/" target="_blank" rel="noopener" style="display:inline-flex;align-items:center;gap:0.5rem;background:#fff;color:#1a73e8;padding:0.75rem 1.5rem;border-radius:8px;text-decoration:none;font-weight:600;border:2px solid #1a73e8;transition:all 0.3s;">
+                    <svg width="18" height="18" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92a5.06 5.06 0 01-2.2 3.32v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.1z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+                    Voir les 31 avis sur Google
+                </a>
+            </div>
         </div>
     </section>
 
