@@ -411,11 +411,44 @@ h1, h2, h3, h4, h5, h6 {
         max-width: 100%;
     }
     .hero-content-right {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--spacing-sm);
         padding-left: 0;
         padding-top: var(--spacing-lg);
         border-left: none;
         border-top: 1px solid var(--color-gray-200);
+    }
+    .hero-stat {
+        flex-direction: column;
+        text-align: center;
+        gap: 4px;
+    }
+    .hero-stat-icon svg {
+        width: 22px;
+        height: 22px;
+    }
+    .hero-stat-text {
+        align-items: center;
+    }
+    .hero-stat-number {
+        font-size: 0.85rem;
+    }
+    .hero-stat-label {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    .hero-content-right {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 6px;
+    }
+    .hero-stat-number {
+        font-size: 0.8rem;
+    }
+    .hero-stat-label {
+        font-size: 9px;
     }
 }
 .hero-location {
@@ -1951,13 +1984,64 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 576px) {
-    .modal-content {
-        padding: var(--spacing-xl);
-        margin: var(--spacing-md);
+    .modal {
+        padding: 0;
+        align-items: flex-end;
     }
-
+    .modal-content {
+        padding: var(--spacing-lg) var(--spacing-md);
+        margin: 0;
+        max-height: 92vh;
+        border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+    }
     .modal-content h2 {
-        font-size: 1.25rem;
+        font-size: 1.15rem;
         padding-right: var(--spacing-xl);
+        margin-bottom: 0;
+    }
+    .modal-phone-cta {
+        padding: var(--spacing-sm);
+        margin-bottom: var(--spacing-sm);
+    }
+    .modal-phone-label {
+        font-size: 0.8rem;
+        margin-bottom: 6px;
+    }
+    .modal-phone-button {
+        padding: 10px 24px;
+        font-size: 1.05rem;
+        gap: 8px;
+        white-space: nowrap;
+    }
+    .modal-phone-button svg {
+        width: 18px;
+        height: 18px;
+    }
+    .modal-phone-hours {
+        font-size: 0.75rem;
+        margin-top: 4px;
+    }
+    .modal-separator {
+        margin: var(--spacing-xs) 0;
+        font-size: 0.8rem;
+    }
+    .modal-form .form-group {
+        gap: 4px;
+    }
+    .modal-form label {
+        font-size: 12px;
+    }
+    .modal-form input,
+    .modal-form textarea {
+        padding: 10px 12px;
+        font-size: 14px;
+    }
+    .modal-form textarea {
+        min-height: 60px;
+    }
+    .btn-full {
+        padding: 10px;
+        font-size: 0.9rem;
+        margin-top: 4px;
     }
 }
