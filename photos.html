@@ -192,7 +192,7 @@
     </style>
 
     <script>
-    (function() {
+    document.addEventListener('DOMContentLoaded', function() {
         var lightbox = document.getElementById('lightbox');
         var lbImg = document.getElementById('lb-img');
         var lbCounter = document.getElementById('lb-counter');
@@ -216,11 +216,16 @@
         function prev() { show(current > 0 ? current - 1 : items.length - 1); }
         function next() { show(current < items.length - 1 ? current + 1 : 0); }
 
-        items.forEach(function(img, i) {
-            img.parentElement.addEventListener('click', function() { show(i); });
-        });
+        for (var i = 0; i < items.length; i++) {
+            (function(idx) {
+                items[idx].addEventListener('click', function() { show(idx); });
+                items[idx].parentElement.addEventListener('click', function() { show(idx); });
+                items[idx].style.cursor = 'pointer';
+                items[idx].parentElement.style.cursor = 'pointer';
+            })(i);
+        }
 
-        document.getElementById('lb-close').addEventListener('click', hide);
+        document.getElementById('lb-close').addEventListener('click', function(e) { e.stopPropagation(); hide(); });
         document.getElementById('lb-prev').addEventListener('click', function(e) { e.stopPropagation(); prev(); });
         document.getElementById('lb-next').addEventListener('click', function(e) { e.stopPropagation(); next(); });
         lightbox.addEventListener('click', function(e) { if (e.target === lightbox) hide(); });
@@ -231,7 +236,17 @@
             if (e.key === 'ArrowLeft') prev();
             if (e.key === 'ArrowRight') next();
         });
-    })();
+
+        // Touch swipe support for mobile
+        var touchStartX = 0;
+        lightbox.addEventListener('touchstart', function(e) { touchStartX = e.changedTouches[0].screenX; });
+        lightbox.addEventListener('touchend', function(e) {
+            var diff = e.changedTouches[0].screenX - touchStartX;
+            if (Math.abs(diff) > 50) {
+                if (diff > 0) prev(); else next();
+            }
+        });
+    });
     </script>
     <!-- Footer -->
             <footer class="footer">
