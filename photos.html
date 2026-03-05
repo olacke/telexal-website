@@ -173,6 +173,66 @@
             </div>
         </div>
     </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.92);z-index:10000;justify-content:center;align-items:center;cursor:pointer;">
+        <button id="lb-close" style="position:absolute;top:20px;right:20px;background:none;border:none;color:#fff;font-size:2rem;cursor:pointer;z-index:10001;padding:10px;" aria-label="Fermer">&times;</button>
+        <button id="lb-prev" style="position:absolute;left:20px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.15);border:none;color:#fff;font-size:2rem;cursor:pointer;padding:10px 16px;border-radius:50%;" aria-label="Précédent">&#8249;</button>
+        <button id="lb-next" style="position:absolute;right:20px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.15);border:none;color:#fff;font-size:2rem;cursor:pointer;padding:10px 16px;border-radius:50%;" aria-label="Suivant">&#8250;</button>
+        <img id="lb-img" style="max-width:90vw;max-height:85vh;object-fit:contain;border-radius:4px;" alt="">
+        <div id="lb-counter" style="position:absolute;bottom:20px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,0.7);font-size:0.85rem;"></div>
+    </div>
+
+    <style>
+        .gallery-item { cursor: pointer; }
+        .gallery-item:hover { opacity: 0.85; transition: opacity 0.2s; }
+        #lightbox { display: none; }
+        #lightbox.active { display: flex; }
+        #lb-prev:hover, #lb-next:hover { background: rgba(255,255,255,0.3); }
+    </style>
+
+    <script>
+    (function() {
+        var lightbox = document.getElementById('lightbox');
+        var lbImg = document.getElementById('lb-img');
+        var lbCounter = document.getElementById('lb-counter');
+        var items = document.querySelectorAll('.gallery-item img');
+        var current = 0;
+
+        function show(idx) {
+            current = idx;
+            lbImg.src = items[idx].src;
+            lbImg.alt = items[idx].alt;
+            lbCounter.textContent = (idx + 1) + ' / ' + items.length;
+            lightbox.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function hide() {
+            lightbox.classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function prev() { show(current > 0 ? current - 1 : items.length - 1); }
+        function next() { show(current < items.length - 1 ? current + 1 : 0); }
+
+        items.forEach(function(img, i) {
+            img.parentElement.addEventListener('click', function() { show(i); });
+        });
+
+        document.getElementById('lb-close').addEventListener('click', hide);
+        document.getElementById('lb-prev').addEventListener('click', function(e) { e.stopPropagation(); prev(); });
+        document.getElementById('lb-next').addEventListener('click', function(e) { e.stopPropagation(); next(); });
+        lightbox.addEventListener('click', function(e) { if (e.target === lightbox) hide(); });
+
+        document.addEventListener('keydown', function(e) {
+            if (!lightbox.classList.contains('active')) return;
+            if (e.key === 'Escape') hide();
+            if (e.key === 'ArrowLeft') prev();
+            if (e.key === 'ArrowRight') next();
+        });
+    })();
+    </script>
     <!-- Footer -->
             <footer class="footer">
         <div class="container">

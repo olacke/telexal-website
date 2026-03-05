@@ -151,9 +151,11 @@
                         <input type="hidden" name="access_key" value="ef3cd28d-b6c3-4359-96dd-dd25eaeab515">
                         <input type="hidden" name="subject" value="Nouvelle demande de devis - Telexal Buro Services">
                         <input type="checkbox" name="botcheck" class="hidden" style="display:none">
+                        <input type="hidden" name="from_name" value="Telexal Website">
+                        <input type="hidden" name="redirect" value="https://www.telexal.fr/contact?sent=1">
 
                         <div class="form-group">
-                            <label for="name">Nom / Prenom *</label>
+                            <label for="name">Nom / Prénom *</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                         <div class="form-group">
@@ -435,6 +437,18 @@
             document.body.prepend(msg);
             setTimeout(() => msg.remove(), 6000);
             history.replaceState(null, '', window.location.pathname);
+        }
+    </script>
+
+    <script>
+        // Show success banner if redirected from form
+        if (window.location.search.includes('sent=1')) {
+            var banner = document.createElement('div');
+            banner.style.cssText = 'position:fixed;top:0;left:0;right:0;background:#2ecc71;color:#fff;text-align:center;padding:16px;font-size:1rem;font-weight:600;z-index:10000;';
+            banner.innerHTML = '✅ Message envoyé ! Nous vous recontacterons rapidement.';
+            document.body.prepend(banner);
+            setTimeout(function(){ banner.style.display='none'; }, 6000);
+            history.replaceState(null, '', '/contact');
         }
     </script>
 </body>
