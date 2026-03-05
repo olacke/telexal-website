@@ -176,21 +176,21 @@
 
 
     <!-- Lightbox Galerie -->
-    <div id="lb" onclick="closeLB()" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.92);z-index:10000;text-align:center;">
+    <div id="lb" onclick="closeLB()" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.92);z-index:10000;justify-content:center;align-items:center;flex-direction:column;">
         <span onclick="closeLB()" style="position:absolute;top:15px;right:25px;color:#fff;font-size:35px;cursor:pointer;z-index:10002;">&times;</span>
         <span onclick="event.stopPropagation();lbPrev()" style="position:absolute;left:15px;top:50%;transform:translateY(-50%);color:#fff;font-size:40px;cursor:pointer;z-index:10002;">&#8249;</span>
         <span onclick="event.stopPropagation();lbNext()" style="position:absolute;right:15px;top:50%;transform:translateY(-50%);color:#fff;font-size:40px;cursor:pointer;z-index:10002;">&#8250;</span>
-        <img id="lbImg" onclick="event.stopPropagation()" style="max-width:90vw;max-height:85vh;margin-top:5vh;object-fit:contain;" alt="">
-        <div id="lbCount" style="color:rgba(255,255,255,.6);margin-top:10px;font-size:14px;"></div>
+        <img id="lbImg" onclick="event.stopPropagation()" style="max-width:90vw;max-height:82vh;object-fit:contain;" alt="">
+        <div id="lbCount" style="color:rgba(255,255,255,.6);margin-top:12px;font-size:14px;"></div>
     </div>
     <script>
     var lbSrcs=[],lbIdx=0;
     document.querySelectorAll(".gallery-item img").forEach(function(img){lbSrcs.push(img.src)});
-    function openLB(i){lbIdx=i;document.getElementById("lbImg").src=lbSrcs[i];document.getElementById("lbCount").textContent=(i+1)+" / "+lbSrcs.length;document.getElementById("lb").style.display="block";document.body.style.overflow="hidden"}
+    function openLB(i){lbIdx=i;document.getElementById("lbImg").src=lbSrcs[i];document.getElementById("lbCount").textContent=(i+1)+" / "+lbSrcs.length;document.getElementById("lb").style.display="flex";document.body.style.overflow="hidden"}
     function closeLB(){document.getElementById("lb").style.display="none";document.body.style.overflow=""}
     function lbPrev(){openLB(lbIdx>0?lbIdx-1:lbSrcs.length-1)}
     function lbNext(){openLB(lbIdx<lbSrcs.length-1?lbIdx+1:0)}
-    document.onkeydown=function(e){if(document.getElementById("lb").style.display==="block"){if(e.key==="Escape")closeLB();if(e.key==="ArrowLeft")lbPrev();if(e.key==="ArrowRight")lbNext()}}
+    document.onkeydown=function(e){if(document.getElementById("lb").style.display==="flex"){if(e.key==="Escape")closeLB();if(e.key==="ArrowLeft")lbPrev();if(e.key==="ArrowRight")lbNext()}}
     </script>
     <!-- Footer -->
             <footer class="footer">
