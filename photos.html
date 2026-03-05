@@ -125,128 +125,72 @@
     <section class="page-content">
         <div class="container">
             <div class="gallery-grid">
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(0)" style="cursor:pointer;">
                     <img loading="lazy" src="images/photo-1.webp" alt="Façade du bâtiment Telexal Buro Services">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(1)" style="cursor:pointer;">
                     <img loading="lazy" src="images/photo-2.webp" alt="Bureau équipé moderne">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(2)" style="cursor:pointer;">
                     <img loading="lazy" src="images/photo-3.webp" alt="Parking et bâtiment">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(3)" style="cursor:pointer;">
                     <img loading="lazy" src="images/photo-4.webp" alt="Bâtiment côté jardin">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(4)" style="cursor:pointer;">
                     <img loading="lazy" src="images/photo-5.webp" alt="Salle de réunion">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(5)" style="cursor:pointer;">
                     <img loading="lazy" src="images/photo-6.webp" alt="Extérieur du bâtiment">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(6)" style="cursor:pointer;">
                     <img loading="lazy" src="images/photo-IMG_8016.webp" alt="Parking extérieur">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(7)" style="cursor:pointer;">
                     <img loading="lazy" src="images/photo-IMG_8018.webp" alt="Vue du bâtiment avec parking">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(8)" style="cursor:pointer;">
                     <img loading="lazy" src="images/bureau-privatif-table-reunion.webp" alt="Bureau privatif avec table de réunion et mobilier professionnel">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(9)" style="cursor:pointer;">
                     <img loading="lazy" src="images/bureau-equipe-ecran-lumineux.webp" alt="Bureau équipé avec écran et lumière naturelle">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(10)" style="cursor:pointer;">
                     <img loading="lazy" src="images/bureau-privatif-double-fenetre.webp" alt="Bureau privatif lumineux avec double fenêtre et plantes">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(11)" style="cursor:pointer;">
                     <img loading="lazy" src="images/hall-entree-escalier.webp" alt="Hall d'entrée avec escalier hélicoïdal et galerie d'art">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(12)" style="cursor:pointer;">
                     <img loading="lazy" src="images/accueil-reception.webp" alt="Accueil et réception du centre d'affaires Telexal">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(13)" style="cursor:pointer;">
                     <img loading="lazy" src="images/accueil-entree-panneau.webp" alt="Entrée du centre d'affaires avec panneau accueil">
                 </div>
-                <div class="gallery-item">
+                <div class="gallery-item" onclick="openLB(14)" style="cursor:pointer;">
                     <img loading="lazy" src="images/bureau-secretariat.webp" alt="Bureau du secrétariat avec poste de travail complet">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Lightbox -->
-    <div id="lightbox" style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,0.92);z-index:10000;justify-content:center;align-items:center;cursor:pointer;">
-        <button id="lb-close" style="position:absolute;top:20px;right:20px;background:none;border:none;color:#fff;font-size:2rem;cursor:pointer;z-index:10001;padding:10px;" aria-label="Fermer">&times;</button>
-        <button id="lb-prev" style="position:absolute;left:20px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.15);border:none;color:#fff;font-size:2rem;cursor:pointer;padding:10px 16px;border-radius:50%;" aria-label="Précédent">&#8249;</button>
-        <button id="lb-next" style="position:absolute;right:20px;top:50%;transform:translateY(-50%);background:rgba(255,255,255,0.15);border:none;color:#fff;font-size:2rem;cursor:pointer;padding:10px 16px;border-radius:50%;" aria-label="Suivant">&#8250;</button>
-        <img id="lb-img" style="max-width:90vw;max-height:85vh;object-fit:contain;border-radius:4px;" alt="">
-        <div id="lb-counter" style="position:absolute;bottom:20px;left:50%;transform:translateX(-50%);color:rgba(255,255,255,0.7);font-size:0.85rem;"></div>
+
+    <!-- Lightbox Galerie -->
+    <div id="lb" onclick="closeLB()" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.92);z-index:10000;text-align:center;">
+        <span onclick="closeLB()" style="position:absolute;top:15px;right:25px;color:#fff;font-size:35px;cursor:pointer;z-index:10002;">&times;</span>
+        <span onclick="event.stopPropagation();lbPrev()" style="position:absolute;left:15px;top:50%;transform:translateY(-50%);color:#fff;font-size:40px;cursor:pointer;z-index:10002;">&#8249;</span>
+        <span onclick="event.stopPropagation();lbNext()" style="position:absolute;right:15px;top:50%;transform:translateY(-50%);color:#fff;font-size:40px;cursor:pointer;z-index:10002;">&#8250;</span>
+        <img id="lbImg" onclick="event.stopPropagation()" style="max-width:90vw;max-height:85vh;margin-top:5vh;object-fit:contain;" alt="">
+        <div id="lbCount" style="color:rgba(255,255,255,.6);margin-top:10px;font-size:14px;"></div>
     </div>
-
-    <style>
-        .gallery-item { cursor: pointer; }
-        .gallery-item:hover { opacity: 0.85; transition: opacity 0.2s; }
-        #lightbox { display: none; }
-        #lightbox.active { display: flex; }
-        #lb-prev:hover, #lb-next:hover { background: rgba(255,255,255,0.3); }
-    </style>
-
     <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var lightbox = document.getElementById('lightbox');
-        var lbImg = document.getElementById('lb-img');
-        var lbCounter = document.getElementById('lb-counter');
-        var items = document.querySelectorAll('.gallery-item img');
-        var current = 0;
-
-        function show(idx) {
-            current = idx;
-            lbImg.src = items[idx].src;
-            lbImg.alt = items[idx].alt;
-            lbCounter.textContent = (idx + 1) + ' / ' + items.length;
-            lightbox.classList.add('active');
-            document.body.style.overflow = 'hidden';
-        }
-
-        function hide() {
-            lightbox.classList.remove('active');
-            document.body.style.overflow = '';
-        }
-
-        function prev() { show(current > 0 ? current - 1 : items.length - 1); }
-        function next() { show(current < items.length - 1 ? current + 1 : 0); }
-
-        for (var i = 0; i < items.length; i++) {
-            (function(idx) {
-                items[idx].addEventListener('click', function() { show(idx); });
-                items[idx].parentElement.addEventListener('click', function() { show(idx); });
-                items[idx].style.cursor = 'pointer';
-                items[idx].parentElement.style.cursor = 'pointer';
-            })(i);
-        }
-
-        document.getElementById('lb-close').addEventListener('click', function(e) { e.stopPropagation(); hide(); });
-        document.getElementById('lb-prev').addEventListener('click', function(e) { e.stopPropagation(); prev(); });
-        document.getElementById('lb-next').addEventListener('click', function(e) { e.stopPropagation(); next(); });
-        lightbox.addEventListener('click', function(e) { if (e.target === lightbox) hide(); });
-
-        document.addEventListener('keydown', function(e) {
-            if (!lightbox.classList.contains('active')) return;
-            if (e.key === 'Escape') hide();
-            if (e.key === 'ArrowLeft') prev();
-            if (e.key === 'ArrowRight') next();
-        });
-
-        // Touch swipe support for mobile
-        var touchStartX = 0;
-        lightbox.addEventListener('touchstart', function(e) { touchStartX = e.changedTouches[0].screenX; });
-        lightbox.addEventListener('touchend', function(e) {
-            var diff = e.changedTouches[0].screenX - touchStartX;
-            if (Math.abs(diff) > 50) {
-                if (diff > 0) prev(); else next();
-            }
-        });
-    });
+    var lbSrcs=[],lbIdx=0;
+    document.querySelectorAll(".gallery-item img").forEach(function(img){lbSrcs.push(img.src)});
+    function openLB(i){lbIdx=i;document.getElementById("lbImg").src=lbSrcs[i];document.getElementById("lbCount").textContent=(i+1)+" / "+lbSrcs.length;document.getElementById("lb").style.display="block";document.body.style.overflow="hidden"}
+    function closeLB(){document.getElementById("lb").style.display="none";document.body.style.overflow=""}
+    function lbPrev(){openLB(lbIdx>0?lbIdx-1:lbSrcs.length-1)}
+    function lbNext(){openLB(lbIdx<lbSrcs.length-1?lbIdx+1:0)}
+    document.onkeydown=function(e){if(document.getElementById("lb").style.display==="block"){if(e.key==="Escape")closeLB();if(e.key==="ArrowLeft")lbPrev();if(e.key==="ArrowRight")lbNext()}}
     </script>
     <!-- Footer -->
             <footer class="footer">
