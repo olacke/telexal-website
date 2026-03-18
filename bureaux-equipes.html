@@ -351,7 +351,6 @@
                     <label for="modal-message">Message</label>
                     <textarea id="modal-message" name="message" rows="3" placeholder="Décrivez votre besoin..."></textarea>
                 </div>
-                <div class="h-captcha" data-captcha="true"></div>
                 <button type="submit" class="btn btn-primary btn-full">Envoyer ma demande</button>
             </form>
         </div>
@@ -412,6 +411,7 @@
             e.preventDefault();
             modal.classList.add('active');
             document.body.style.overflow = 'hidden';
+
         }
 
         function closeModal() {
@@ -464,6 +464,5 @@
             });
         });
     </script>
-    <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>
