@@ -304,6 +304,8 @@
                 <input type="hidden" name="from_name" value="Telexal Website">
                 <input type="hidden" name="redirect" value="https://www.telexal.fr/contact?sent=1">
                 <input type="checkbox" name="botcheck" class="hidden" style="display:none">
+                <input type="text" name="website" style="display:none!important;position:absolute;left:-9999px;" tabindex="-1" autocomplete="off" placeholder="Your website">
+                <input type="hidden" name="timestamp" value="">
                 <div class="form-group">
                     <label for="modal-name">Nom / Prénom *</label>
                     <input type="text" id="modal-name" name="name" required placeholder="Votre nom complet">
@@ -406,6 +408,31 @@
             setTimeout(() => msg.remove(), 6000);
             history.replaceState(null, '', window.location.pathname);
         }
+    </script>
+<script>
+        // Anti-spam: set timestamp on load, block submissions < 3 seconds
+        document.querySelectorAll('input[name="timestamp"]').forEach(function(el) {
+            el.value = Date.now().toString();
+        });
+        document.querySelectorAll('form').forEach(function(form) {
+            form.addEventListener('submit', function(e) {
+                var ts = form.querySelector('input[name="timestamp"]');
+                var honeypot = form.querySelector('input[name="website"]');
+                // Block if honeypot filled (bot)
+                if (honeypot && honeypot.value) {
+                    e.preventDefault();
+                    return false;
+                }
+                // Block if submitted < 3 seconds after page load (bot speed)
+                if (ts && ts.value) {
+                    var elapsed = (Date.now() - parseInt(ts.value)) / 1000;
+                    if (elapsed < 3) {
+                        e.preventDefault();
+                        return false;
+                    }
+                }
+            });
+        });
     </script>
 </body>
 </html>
