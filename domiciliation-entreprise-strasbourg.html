@@ -448,19 +448,6 @@
                         return false;
                     }
                 }
-                // Block if hCaptcha not completed
-                var hcaptcha = form.querySelector('textarea[name="h-captcha-response"]');
-                if (hcaptcha && !hcaptcha.value) {
-                    e.preventDefault();
-                    var btn = form.querySelector('button[type="submit"]');
-                    var orig = btn ? btn.textContent : '';
-                    if (btn) {
-                        btn.textContent = 'Veuillez compléter le captcha';
-                        btn.style.opacity = '0.7';
-                        setTimeout(function() { btn.textContent = orig; btn.style.opacity = ''; }, 3000);
-                    }
-                    return false;
-                }
             });
         });
     </script>
