@@ -429,16 +429,13 @@
                     e.preventDefault();
                     return false;
                 }
-                // Block if timestamp is empty (direct POST bot, JS never ran)
-                if (!ts || !ts.value) {
-                    e.preventDefault();
-                    return false;
-                }
                 // Block if submitted < 3 seconds after page load (bot speed)
-                var elapsed = (Date.now() - parseInt(ts.value)) / 1000;
-                if (elapsed < 3) {
-                    e.preventDefault();
-                    return false;
+                if (ts && ts.value) {
+                    var elapsed = (Date.now() - parseInt(ts.value)) / 1000;
+                    if (elapsed < 3) {
+                        e.preventDefault();
+                        return false;
+                    }
                 }
             });
         });
