@@ -1,18 +1,30 @@
-# Robots.txt pour Telexal Buro Services
-# https://www.telexal.fr
+# robots.txt - Telexal Buro Services - https://www.telexal.fr
+# Le site est ouvert aux moteurs de recherche et aux assistants IA :
+# nous voulons être trouvés et cités (Google, Bing, ChatGPT, Claude, Perplexity, Gemini...).
 
 User-agent: *
 Allow: /
-
-# Sitemap
-Sitemap: https://www.telexal.fr/sitemap.xml
-
-# LLMs.txt - Documentation pour les IA
-# https://llmstxt.org/
-# llms.txt: /llms.txt
-# llms-full.txt: /llms-full.txt
-
-# Bloquer les fichiers non pertinents
-Disallow: /images/*.pdf
 Disallow: /_headers
 Disallow: /_redirects
+
+# Moteurs de recherche IA et assistants (recherche, citations, réponses en direct)
+User-agent: OAI-SearchBot
+User-agent: ChatGPT-User
+User-agent: GPTBot
+User-agent: Claude-SearchBot
+User-agent: Claude-User
+User-agent: ClaudeBot
+User-agent: PerplexityBot
+User-agent: Perplexity-User
+User-agent: Google-Extended
+User-agent: Applebot
+User-agent: Applebot-Extended
+User-agent: Bingbot
+User-agent: DuckAssistBot
+User-agent: MistralAI-User
+Allow: /
+
+Sitemap: https://www.telexal.fr/sitemap.xml
+
+# Résumé du site pour les IA : https://www.telexal.fr/llms.txt
+# Version complète : https://www.telexal.fr/llms-full.txt

@@ -17,7 +17,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.telexal.fr/contact">
     <meta property="og:title" content="Demande de devis | Telexal Buro Services">
-    <meta property="og:description" content="Demandez un devis ou planifiez une visite. Notre équipe est à votre disposition du lundi au vendredi, 8h-18h.">
+    <meta property="og:description" content="Demandez un devis ou planifiez une visite. Notre équipe est à votre disposition du lundi au vendredi, 8h30-12h et 14h-17h30.">
     <meta property="og:locale" content="fr_FR">
     <meta property="og:image" content="https://www.telexal.fr/images/og-image.jpg">
     <meta property="og:image:width" content="1200">
@@ -26,14 +26,14 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Demande de devis | Telexal Buro Services">
-    <meta name="twitter:description" content="Demandez un devis ou planifiez une visite. Notre équipe est à votre disposition du lundi au vendredi, 8h-18h.">
+    <meta name="twitter:description" content="Demandez un devis ou planifiez une visite. Notre équipe est à votre disposition du lundi au vendredi, 8h30-12h et 14h-17h30.">
     <meta name="twitter:image" content="https://www.telexal.fr/images/og-image.jpg">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css?v=20260227b">
+    <link rel="stylesheet" href="styles.css?v=20261111">
 
     <!-- Schema.org JSON-LD -->
     <script type="application/ld+json">
@@ -56,13 +56,19 @@
                 "addressCountry": "FR"
             },
             "openingHoursSpecification": [
-                {
-                    "@type": "OpeningHoursSpecification",
-                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-                    "opens": "08:00",
-                    "closes": "18:00"
-                }
-            ]
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "08:30",
+                "closes": "12:00"
+            },
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "14:00",
+                "closes": "17:30"
+            }
+        ]
         }
     }
     </script>
@@ -103,12 +109,12 @@
                         <li><a href="/contact" class="active">Contact</a></li>
                     </ul>
                 </nav>
-                <a href="#" class="header-cta-gold" data-modal="contact">Demande de devis</a>
+                <a href="/contact" class="header-cta-gold" data-modal="contact">Demande de devis</a>
                 <div class="nav-mobile-actions">
                     <a href="tel:+33388183737" class="nav-mobile-phone" aria-label="Appeler">
                         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                     </a>
-                    <a href="#" class="nav-mobile-cta-gold" data-modal="contact">Devis</a>
+                    <a href="/contact" class="nav-mobile-cta-gold" data-modal="contact">Devis</a>
                     <button class="nav-toggle" aria-label="Menu">
                         <span></span>
                         <span></span>
@@ -214,7 +220,7 @@
                         <h3>Horaires</h3>
                         <div class="sidebar-item">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
-                            <span>Lundi - Vendredi : 8h - 18h</span>
+                            <span>Lundi - Vendredi : 8h30-12h et 14h-17h30</span>
                         </div>
                         <div class="sidebar-item">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
@@ -230,7 +236,7 @@
                     <!-- Google Maps Embed -->
                     <div style="margin-top: var(--spacing-xl); border-radius: var(--radius-lg); overflow: hidden;">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2636.8789!2d7.6419!3d48.6425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4796c8f2c5e9e8a7%3A0x8b8b8b8b8b8b8b8b!2s2%20Rue%20Thomas%20Edison%2C%2067450%20Mundolsheim%2C%20France!5e0!3m2!1sfr!2sfr!4v1700000000000!5m2!1sfr!2sfr"
+                            src="https://www.google.com/maps?q=Telexal%20Buro%20Services%2C%202%20rue%20Thomas%20Edison%2C%2067450%20Mundolsheim&amp;output=embed"
                             width="100%"
                             height="250"
                             style="border:0;"
@@ -293,7 +299,7 @@
                     <p><a href="tel:+33388183737">03 88 18 37 37</a></p>
                     <p><a href="mailto:contact@telexal.fr">contact@telexal.fr</a></p>
                     <div class="footer-hours">
-                        <p><strong>Horaires d'accueil :</strong><br>Lundi - Vendredi : 8h - 18h</p>
+                        <p><strong>Horaires d'accueil :</strong><br>Lundi - Vendredi : 8h30-12h et 14h-17h30</p>
                     </div>
                 </div>
             </div>
@@ -322,7 +328,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                     03 88 18 37 37
                 </a>
-                <p class="modal-phone-hours">Du lundi au vendredi, 8h - 18h</p>
+                <p class="modal-phone-hours">Du lundi au vendredi, 8h30-12h et 14h-17h30</p>
             </div>
 
             <div class="modal-separator">
@@ -352,6 +358,20 @@
                     <label for="modal-phone">Téléphone *</label>
                     <input type="tel" id="modal-phone" name="phone" required placeholder="06 12 34 56 78">
                 </div>
+                <div class="form-group">
+                    <label for="modal-besoin">Votre besoin</label>
+                    <select id="modal-besoin" name="besoin">
+                        <option value="">-- Choisissez --</option>
+                        <option value="Location de bureau">Location de bureau</option>
+                        <option value="Domiciliation">Domiciliation</option>
+                        <option value="Permanence téléphonique">Permanence téléphonique</option>
+                        <option value="Salle de réunion">Salle de réunion</option>
+                        <option value="Secrétariat">Secrétariat</option>
+                        <option value="Visite des locaux">Visite des locaux</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+                </div>
+                <input type="hidden" name="page_origine" value="">
                 <div class="form-group">
                     <label for="modal-message">Message</label>
                     <textarea id="modal-message" name="message" rows="3" placeholder="Décrivez votre besoin..."></textarea>
@@ -458,6 +478,9 @@
     </script>
 <script>
         // Anti-spam: set timestamp on load, block submissions < 3 seconds
+        document.querySelectorAll('input[name="page_origine"]').forEach(function(el) {
+            el.value = window.location.pathname;
+        });
         document.querySelectorAll('input[name="timestamp"]').forEach(function(el) {
             el.value = Date.now().toString();
         });

@@ -1,288 +1,135 @@
-# Telexal Buro Services - Documentation Complète
+# Telexal Buro Services - Documentation complète
 
-> Centre d'affaires professionnel à Mundolsheim (Strasbourg) proposant location de bureaux équipés, domiciliation d'entreprise, permanence téléphonique et secrétariat depuis plus de 40 ans.
+> Centre d'affaires à Mundolsheim, à 6 km au nord de Strasbourg (Bas-Rhin, Alsace), en activité depuis plus de 40 ans : location de bureaux équipés, domiciliation d'entreprise agréée, permanence téléphonique, salles de réunion et secrétariat externalisé.
 
----
-
-## Informations Générales
-
-**Nom:** Telexal Buro Services
-**Type:** Centre d'affaires / Business Center
-**Fondation:** Plus de 40 ans d'activité
-**Localisation:** Mundolsheim, périphérie nord de Strasbourg (Alsace, France)
-
-### Coordonnées
-- **Adresse:** 2 rue Thomas Edison, 67450 Mundolsheim, France
-- **Téléphone:** +33 3 88 18 37 37
-- **Email:** telexalburoservices@orange.fr
-- **Site web:** https://telexal.fr
-
-### Horaires
-- **Accueil:** Lundi au Vendredi, 8h00 - 18h00
-- **Accès bureaux:** 24 heures sur 24, 7 jours sur 7 (badge sécurisé)
-
-### Structure Juridique
-- **Société:** VS Investissement SARL
-- **Agrément:** Domiciliation commerciale agréée par la Préfecture de Strasbourg
+Mise à jour : 11 novembre 2026. Tous les prix indiqués sont des prix de départ, hors taxes (HT), sauf mention contraire.
 
 ---
 
-## Services Proposés
+## Fiche d'identité
 
-### 1. Location de Bureaux Équipés
+- Nom commercial : Telexal Buro Services (Telexal)
+- Activité : centre d'affaires (business center)
+- Ancienneté : plus de 40 ans d'activité à Mundolsheim
+- Société : Telexal SAS, SIREN 943 106 617, RCS Strasbourg
+- Adresse : 2 rue Thomas Edison, 67450 Mundolsheim, France
+- Téléphone : 03 88 18 37 37 (+33 3 88 18 37 37)
+- Email : contact@telexal.fr
+- Site : https://www.telexal.fr
+- Horaires d'accueil : du lundi au vendredi, 8h30-12h et 14h-17h30
+- Accès aux bureaux pour les locataires : 24h/24, 7j/7
+- Langues parlées : français, anglais, allemand
+- Agrément : domiciliation commerciale agréée par la Préfecture du Bas-Rhin
+- Avis Google : 4,9/5
+- Clientèle : PME et TPE, professions libérales, cabinets, organismes de formation, entreprises de services, créateurs d'entreprise ; une centaine d'entreprises accompagnées
 
-**Description:** Bureaux privatifs prêts à l'emploi pour professionnels, entrepreneurs et PME.
+## Le bâtiment
 
-**Caractéristiques:**
-- 30 bureaux disponibles
-- Surfaces: 12 à 20 m² par bureau
-- Configuration: Individuel ou partagé (coworking)
+- Environ 500 m² sur 2 niveaux
+- 30 bureaux privatifs de 7 à 22 m²
+- 2 salles de réunion
+- 40 places de parking privées et gratuites (clients et visiteurs)
+- Internet fibre
 
-**Équipements inclus:**
-- Mobilier professionnel complet (bureau, chaise ergonomique, rangements)
-- Connexion Internet fibre optique haut débit
-- Électricité et éclairage
-- Chauffage et climatisation
-- Accès aux espaces communs (coin détente, cuisine équipée)
-- Ménage des parties communes
+## Accès
 
-**Avantages:**
-- Parking privé gratuit (50 places)
-- Accès 24h/24 et 7j/7
-- Contrats flexibles (à partir d'un mois)
-- Pas de charges cachées (tout inclus)
-
-**Page:** /bureaux-equipes.html
-
----
-
-### 2. Salles de Réunion
-
-**Description:** Espaces de réunion professionnels à louer à l'heure ou à la journée.
-
-**Salles disponibles:**
-
-**Salle Edison:**
-- Capacité: 8 personnes
-- Configuration: Table de réunion
-- Équipement: Vidéoprojecteur, paperboard, WiFi
-
-**Salle Volta:**
-- Capacité: 12 personnes
-- Configuration: Table de réunion ou formation
-- Équipement: Vidéoprojecteur, paperboard, WiFi
-
-**Tarification:** À l'heure ou à la journée (nous contacter pour devis)
-
-**Page:** /salle-de-reunion.html
+- En voiture : accès direct depuis l'A4 (Paris-Strasbourg) et l'A35, environ 6 km au nord du centre de Strasbourg
+- En train : gare de Mundolsheim à 8 minutes à pied, puis 5 minutes jusqu'à Strasbourg
+- Allemagne : Kehl à environ 20 minutes, Karlsruhe à environ 45 minutes
 
 ---
 
-### 3. Domiciliation d'Entreprise
+## Prestations et tarifs
 
-**Description:** Service d'adresse commerciale pour siège social d'entreprise.
+### 1. Location de bureaux équipés
+Page : https://www.telexal.fr/bureaux-equipes
 
-**Prestations:**
-- Utilisation de l'adresse professionnelle comme siège social
-- Réception du courrier postal
-- Notification par email à chaque réception
-- Conservation du courrier à disposition
-- Possibilité de transfert/réexpédition
+- Prix : à partir de 150 € HT par mois, selon la surface et l'emplacement du bureau
+- 30 bureaux privatifs meublés, de 7 à 22 m²
+- Inclus : électricité, chauffage, climatisation, ménage des parties communes, internet fibre, mobilier, parking gratuit, domiciliation de l'entreprise
+- Engagement : dès 1 mois
+- Frais d'entrée : 0 €
+- Accès sécurisé 24h/24, 7j/7
+- En option : permanence téléphonique, secrétariat
 
-**Avantages:**
-- Adresse prestigieuse aux portes de Strasbourg
-- Agrément préfectoral (conformité légale)
-- Image professionnelle pour votre entreprise
-- Alternative économique à la location de bureau
+### 2. Domiciliation d'entreprise
+Page : https://www.telexal.fr/domiciliation
 
-**Engagement minimum:** 3 mois
+- Prix : à partir de 29 € HT par mois (34,80 € TTC)
+- Domiciliation du siège social au 2 rue Thomas Edison, 67450 Mundolsheim
+- Centre agréé par la Préfecture du Bas-Rhin
+- Courrier réceptionné et notifié par email, puis scanné ou tenu à disposition (retrait sur place) ; réexpédition sur demande
+- Réception des recommandés et des colis
+- Engagement minimum : 3 mois
+- Pour : création d'entreprise, transfert de siège, établissement secondaire, micro-entreprise
 
-**Page:** /domiciliation.html
+### 3. Permanence téléphonique
+Page : https://www.telexal.fr/permanence-telephonique
 
----
+- Prix : à partir de 45 € HT par mois + 1 € HT par appel traité (54 € TTC + 1,20 € TTC par appel)
+- Appels décrochés au nom de l'entreprise cliente, selon ses consignes, par une équipe basée à Mundolsheim
+- Message transmis au client après chaque appel
+- Langues : français, anglais, allemand
+- Horaires : du lundi au vendredi, 8h30-12h et 14h-17h30
+- C'est le métier historique de Telexal
 
-### 4. Permanence Téléphonique
+### 4. Salles de réunion
+Page : https://www.telexal.fr/salle-de-reunion
 
-**Description:** Service d'accueil téléphonique externalisé et personnalisé.
+- Salle Edison : 22 m², jusqu'à 12 personnes assises, accès à une mezzanine pour une collation
+- Salle Volta : 16 m², jusqu'à 8 personnes assises
+- Prix : 15 € HT de l'heure, 40 € HT la demi-journée, 60 € HT la journée
+- Inclus : Wi-Fi fibre, vidéoprojecteur, paperboard, parking gratuit
 
-**Prestations:**
-- Réception des appels au nom de votre entreprise
-- Accueil personnalisé selon vos consignes
-- Prise de messages détaillés
-- Transfert d'appels vers votre ligne
-- Gestion d'agenda et prise de rendez-vous
+### 5. Secrétariat externalisé
+Page : https://www.telexal.fr/secretariat
 
-**Langues:** Français, Anglais, Allemand
-
-**Avantages:**
-- Ne manquez plus aucun appel
-- Image professionnelle
-- Équipe expérimentée (notre cœur de métier)
-- Flexibilité des formules
-
-**Page:** /permanence-telephonique.html
-
----
-
-### 5. Secrétariat Externalisé
-
-**Description:** Services administratifs et de secrétariat à la demande.
-
-**Prestations:**
-- Traitement de texte et mise en page
-- Rédaction de courriers professionnels
-- Création de présentations
-- Gestion administrative courante
-- Facturation et relances clients
-- Classement et archivage
-
-**Avantages:**
-- Expertise reconnue depuis 40 ans
-- Pas de charge salariale
-- Flexibilité (à la tâche ou forfait)
-
-**Page:** /secretariat.html
+- Prix : sur devis, selon le volume et la fréquence
+- Saisie et mise en page, gestion administrative, facturation et relances
+- Ponctuel ou régulier
 
 ---
 
-## Localisation et Accessibilité
+## Questions fréquentes
 
-### Position Géographique
-Mundolsheim est située dans la première couronne nord de Strasbourg, en Alsace (région Grand Est).
+**Combien coûte une domiciliation d'entreprise chez Telexal ?**
+À partir de 29 € HT par mois (34,80 € TTC), avec un engagement minimum de 3 mois. Le centre est agréé par la Préfecture du Bas-Rhin.
 
-### Accès Routier
-- **Autoroute A4:** Axe Paris-Strasbourg, sortie Mundolsheim
-- **Autoroute A35:** Axe nord-sud alsacien
-- **Temps depuis centre Strasbourg:** 10 minutes environ
-- **Parking:** 50 places gratuites sur site
+**Combien coûte un bureau ?**
+À partir de 150 € HT par mois, charges comprises, sans frais d'entrée. Le prix dépend de la surface (7 à 22 m²) et de l'emplacement.
 
-### Transports en Commun
-- Lignes de bus CTS desservant Mundolsheim
-- Connexion au réseau de transport strasbourgeois
+**Combien coûte la permanence téléphonique ?**
+À partir de 45 € HT par mois + 1 € HT par appel.
 
-### Proximité
-- Centre-ville Strasbourg: 10 min
-- Aéroport Strasbourg-Entzheim: 20 min
-- Gare TGV Strasbourg: 15 min
-- Frontière allemande: 15 min
+**Combien coûte une salle de réunion ?**
+15 € HT de l'heure, 40 € HT la demi-journée, 60 € HT la journée.
 
----
+**Quelle est la durée minimum d'engagement ?**
+1 mois pour un bureau, 3 mois pour une domiciliation.
 
-## Avantages Concurrentiels
+**Le parking est-il inclus ?**
+Oui : 40 places privées et gratuites, pour les clients et leurs visiteurs.
 
-### Par rapport au centre-ville de Strasbourg
-1. **Économies:** Loyers 30-40% moins chers qu'en hypercentre
-2. **Stationnement:** Parking gratuit vs. stationnement payant et rare
-3. **Accessibilité:** Pas d'embouteillages, accès autoroute direct
-4. **Cadre:** Environnement calme et professionnel
+**Peut-on accéder à son bureau en dehors des horaires d'accueil ?**
+Oui, les locataires ont un accès sécurisé 24h/24 et 7j/7.
 
-### Par rapport à un bail classique
-1. **Flexibilité:** Contrats courts possibles (1 mois minimum)
-2. **Tout inclus:** Pas de charges surprises
-3. **Services:** Accueil, ménage, maintenance inclus
-4. **Évolutivité:** Changement de surface facile
+**Peut-on domicilier une micro-entreprise ?**
+Oui, la domiciliation s'adresse aux sociétés, aux micro-entrepreneurs et aux établissements secondaires.
+
+**Comment visiter le centre ?**
+En réservant sur https://www.telexal.fr/visite ou en appelant le 03 88 18 37 37. La visite est gratuite et dure environ 30 minutes.
 
 ---
 
-## Tarification Indicative
+## Guides publiés sur le site
 
-Les tarifs sont communiqués sur demande et dépendent des services choisis. Contactez-nous pour un devis personnalisé.
+- Louer un bureau à Strasbourg : https://www.telexal.fr/location-bureau-strasbourg
+- Domiciliation d'entreprise à Strasbourg : https://www.telexal.fr/domiciliation-entreprise-strasbourg
+- Créer son entreprise en Alsace : https://www.telexal.fr/creer-entreprise-alsace
+- Coworking ou bureau privatif : https://www.telexal.fr/coworking-bureau-privatif
+- Externaliser sa permanence téléphonique : https://www.telexal.fr/externaliser-permanence-telephonique
+- Pourquoi s'installer aux portes de Strasbourg : https://www.telexal.fr/pourquoi-installer-entreprise-strasbourg
 
-**Fourchettes de prix du marché (à titre indicatif):**
-- Bureau équipé: 200-500€/mois selon surface
-- Domiciliation: À partir de 30€/mois
-- Salle de réunion: À partir de 20€/heure
-- Permanence téléphonique: Forfaits sur mesure
+## Réseaux et partenaires
 
----
-
-## Questions Fréquentes (FAQ)
-
-**Q: Quelle est la durée minimum d'engagement?**
-R: Pour les bureaux, les contrats démarrent à 1 mois minimum avec renouvellement flexible. Pour la domiciliation, l'engagement minimum est de 3 mois.
-
-**Q: Le parking est-il inclus?**
-R: Oui, le parking est entièrement gratuit pour tous nos clients et leurs visiteurs. Nous disposons de 50 places.
-
-**Q: Quels services sont inclus dans la location de bureau?**
-R: Mobilier professionnel, Internet fibre, électricité, chauffage/climatisation, ménage des parties communes, accès espaces partagés et coin détente.
-
-**Q: Puis-je accéder à mon bureau en dehors des heures d'ouverture?**
-R: Oui, tous nos locataires bénéficient d'un accès 24h/24 et 7j/7 grâce à un badge sécurisé.
-
-**Q: Proposez-vous des salles de réunion?**
-R: Oui, deux salles équipées: Salle Edison (8 pers.) et Salle Volta (12 pers.), avec vidéoprojecteur et paperboard.
-
-**Q: Comment fonctionne la domiciliation?**
-R: Vous utilisez notre adresse comme siège social. Nous réceptionnons votre courrier, vous notifions par email et le conservons à disposition. Service agréé par la Préfecture.
-
-**Q: Quelles langues parlez-vous pour la permanence téléphonique?**
-R: Français, anglais et allemand.
-
----
-
-## Ressources et Guides
-
-Articles informatifs disponibles sur le site:
-
-1. **Guide Location Bureau Strasbourg** (/location-bureau-strasbourg.html)
-   - Types de bureaux disponibles
-   - Comparatif des prix par zone
-   - Critères de choix
-
-2. **Guide Domiciliation Entreprise** (/domiciliation-entreprise-strasbourg.html)
-   - Obligations légales
-   - Avantages de la domiciliation
-   - Comment choisir son prestataire
-
-3. **Créer son Entreprise en Alsace** (/creer-entreprise-alsace.html)
-   - Étapes de création
-   - Aides disponibles
-   - Écosystème entrepreneurial alsacien
-
-4. **Coworking vs Bureau Privatif** (/coworking-bureau-privatif.html)
-   - Comparatif des solutions
-   - Avantages et inconvénients
-   - Pour quel profil
-
-5. **Externaliser sa Permanence Téléphonique** (/externaliser-permanence-telephonique.html)
-   - Pourquoi externaliser
-   - Comment ça fonctionne
-   - ROI et bénéfices
-
-6. **Pourquoi s'installer à Strasbourg** (/pourquoi-installer-entreprise-strasbourg.html)
-   - Atouts économiques
-   - Position européenne
-   - Qualité de vie
-
----
-
-## Partenaires et Certifications
-
-- **BNI Alsace:** Membre du réseau d'affaires
-- **Préfecture du Bas-Rhin:** Agrément domiciliation commerciale
-- **CCI Alsace Eurométropole:** Partenaire
-- **Chambre des Métiers d'Alsace:** Partenaire
-
----
-
-## Contact et Visite
-
-Pour toute demande d'information ou pour planifier une visite de nos locaux:
-
-- **Téléphone:** 03 88 18 37 37
-- **Email:** telexalburoservices@orange.fr
-- **Formulaire:** /contact.html
-
-Les visites sont gratuites et sans engagement.
-
----
-
-## Métadonnées
-
-- **Dernière mise à jour:** Janvier 2024
-- **Langue:** Français
-- **Zone géographique:** Strasbourg, Alsace, Grand Est, France
-- **Secteur:** Services aux entreprises, Immobilier d'entreprise, Centre d'affaires
-
-**Mots-clés:** location bureau strasbourg, domiciliation entreprise alsace, centre affaires mundolsheim, permanence téléphonique strasbourg, secrétariat externalisé, salle réunion strasbourg, coworking strasbourg, bureau équipé
+BNI Alsace, BURO Club, CCI Alsace Eurométropole, Eurométropole de Strasbourg, Ordre des Experts-Comptables, A Cœur Alsace.

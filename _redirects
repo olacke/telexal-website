@@ -20,3 +20,10 @@
 /node/6  /salle-de-reunion  301
 /node/7  /photos  301
 /node/28  /qui-sommes-nous  301
+
+# =============================================
+# Visite (nov. 2026)
+# =============================================
+/rendez-vous  /visite  301
+/visiter  /visite  301
+/devis  /contact  301
