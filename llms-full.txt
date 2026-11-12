@@ -2,7 +2,7 @@
 
 > Centre d'affaires à Mundolsheim, à 6 km au nord de Strasbourg (Bas-Rhin, Alsace), en activité depuis plus de 40 ans : location de bureaux équipés, domiciliation d'entreprise agréée, permanence téléphonique, salles de réunion et secrétariat externalisé.
 
-Mise à jour : 11 novembre 2026. Tous les prix indiqués sont des prix de départ, hors taxes (HT), sauf mention contraire.
+Mise à jour : 11 novembre 2026. Tous les prix indiqués sont des prix de départ.
 
 ---
 
@@ -16,7 +16,7 @@ Mise à jour : 11 novembre 2026. Tous les prix indiqués sont des prix de dépar
 - Téléphone : 03 88 18 37 37 (+33 3 88 18 37 37)
 - Email : contact@telexal.fr
 - Site : https://www.telexal.fr
-- Horaires d'accueil : du lundi au vendredi, 8h30-12h et 14h-17h30
+- Horaires d'accueil : du lundi au jeudi 8h-12h et 14h-18h, le vendredi 8h-12h et 14h-17h ; fermé le week-end
 - Accès aux bureaux pour les locataires : 24h/24, 7j/7
 - Langues parlées : français, anglais, allemand
 - Agrément : domiciliation commerciale agréée par la Préfecture du Bas-Rhin
@@ -44,7 +44,7 @@ Mise à jour : 11 novembre 2026. Tous les prix indiqués sont des prix de dépar
 ### 1. Location de bureaux équipés
 Page : https://www.telexal.fr/bureaux-equipes
 
-- Prix : à partir de 150 € HT par mois, selon la surface et l'emplacement du bureau
+- Prix : à partir de 375 € par mois, selon la surface et l'emplacement du bureau
 - 30 bureaux privatifs meublés, de 7 à 22 m²
 - Inclus : électricité, chauffage, climatisation, ménage des parties communes, internet fibre, mobilier, parking gratuit, domiciliation de l'entreprise
 - Engagement : dès 1 mois
@@ -55,7 +55,7 @@ Page : https://www.telexal.fr/bureaux-equipes
 ### 2. Domiciliation d'entreprise
 Page : https://www.telexal.fr/domiciliation
 
-- Prix : à partir de 29 € HT par mois (34,80 € TTC)
+- Prix : à partir de 29 € par mois
 - Domiciliation du siège social au 2 rue Thomas Edison, 67450 Mundolsheim
 - Centre agréé par la Préfecture du Bas-Rhin
 - Courrier réceptionné et notifié par email, puis scanné ou tenu à disposition (retrait sur place) ; réexpédition sur demande
@@ -66,19 +66,19 @@ Page : https://www.telexal.fr/domiciliation
 ### 3. Permanence téléphonique
 Page : https://www.telexal.fr/permanence-telephonique
 
-- Prix : à partir de 45 € HT par mois + 1 € HT par appel traité (54 € TTC + 1,20 € TTC par appel)
+- Prix : à partir de 45 € par mois + 1 € par appel traité
 - Appels décrochés au nom de l'entreprise cliente, selon ses consignes, par une équipe basée à Mundolsheim
 - Message transmis au client après chaque appel
 - Langues : français, anglais, allemand
-- Horaires : du lundi au vendredi, 8h30-12h et 14h-17h30
+- Horaires : du lundi au jeudi 8h-12h et 14h-18h, le vendredi 8h-12h et 14h-17h
 - C'est le métier historique de Telexal
 
 ### 4. Salles de réunion
 Page : https://www.telexal.fr/salle-de-reunion
 
-- Salle Edison : 22 m², jusqu'à 12 personnes assises, accès à une mezzanine pour une collation
+- Salle Edison : 22 m², jusqu'à 10 personnes assises, accès à une mezzanine pour une collation
 - Salle Volta : 16 m², jusqu'à 8 personnes assises
-- Prix : 15 € HT de l'heure, 40 € HT la demi-journée, 60 € HT la journée
+- Prix : 15 € de l'heure, 40 € la demi-journée, 60 € la journée
 - Inclus : Wi-Fi fibre, vidéoprojecteur, paperboard, parking gratuit
 
 ### 5. Secrétariat externalisé
@@ -93,16 +93,16 @@ Page : https://www.telexal.fr/secretariat
 ## Questions fréquentes
 
 **Combien coûte une domiciliation d'entreprise chez Telexal ?**
-À partir de 29 € HT par mois (34,80 € TTC), avec un engagement minimum de 3 mois. Le centre est agréé par la Préfecture du Bas-Rhin.
+À partir de 29 € par mois, avec un engagement minimum de 3 mois. Le centre est agréé par la Préfecture du Bas-Rhin.
 
 **Combien coûte un bureau ?**
-À partir de 150 € HT par mois, charges comprises, sans frais d'entrée. Le prix dépend de la surface (7 à 22 m²) et de l'emplacement.
+À partir de 375 € par mois, charges comprises, sans frais d'entrée. Le prix dépend de la surface (7 à 22 m²) et de l'emplacement.
 
 **Combien coûte la permanence téléphonique ?**
-À partir de 45 € HT par mois + 1 € HT par appel.
+À partir de 45 € par mois + 1 € par appel.
 
 **Combien coûte une salle de réunion ?**
-15 € HT de l'heure, 40 € HT la demi-journée, 60 € HT la journée.
+15 € de l'heure, 40 € la demi-journée, 60 € la journée.
 
 **Quelle est la durée minimum d'engagement ?**
 1 mois pour un bureau, 3 mois pour une domiciliation.

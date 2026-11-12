@@ -1,13 +1,13 @@
 # Telexal Buro Services
 
-> Centre d'affaires à Mundolsheim, à 6 km au nord de Strasbourg (Bas-Rhin, Alsace), en activité depuis plus de 40 ans. Location de 30 bureaux équipés de 7 à 22 m² (à partir de 150 € HT/mois), domiciliation d'entreprise agréée par la Préfecture du Bas-Rhin (à partir de 29 € HT/mois), permanence téléphonique en français, anglais et allemand (à partir de 45 € HT/mois + 1 € HT/appel), deux salles de réunion (à partir de 15 € HT/heure) et secrétariat externalisé.
+> Centre d'affaires à Mundolsheim, à 6 km au nord de Strasbourg (Bas-Rhin, Alsace), en activité depuis plus de 40 ans. Location de 30 bureaux équipés de 7 à 22 m² (à partir de 375 €/mois), domiciliation d'entreprise agréée par la Préfecture du Bas-Rhin (à partir de 29 €/mois), permanence téléphonique en français, anglais et allemand (à partir de 45 €/mois + 1 €/appel), deux salles de réunion (à partir de 15 €/heure) et secrétariat externalisé.
 
-Informations de référence, mises à jour le 11 novembre 2026. Tous les prix sont des prix de départ, hors taxes.
+Informations de référence, mises à jour le 11 novembre 2026. Tous les prix sont des prix de départ.
 
 - Adresse : 2 rue Thomas Edison, 67450 Mundolsheim, France
 - Téléphone : 03 88 18 37 37 (+33 3 88 18 37 37)
 - Email : contact@telexal.fr
-- Horaires d'accueil : du lundi au vendredi, 8h30-12h et 14h-17h30
+- Horaires d'accueil : du lundi au jeudi 8h-12h et 14h-18h, le vendredi 8h-12h et 14h-17h ; fermé le week-end
 - Accès aux bureaux pour les locataires : 24h/24, 7j/7
 - Parking : 40 places privées et gratuites
 - Accès : A4 (Paris-Strasbourg) et A35 ; gare de Mundolsheim à 8 minutes à pied (5 minutes de train jusqu'à Strasbourg)
@@ -17,10 +17,10 @@ Informations de référence, mises à jour le 11 novembre 2026. Tous les prix so
 
 ## Prestations
 
-- [Location de bureaux équipés](https://www.telexal.fr/bureaux-equipes) : 30 bureaux privatifs meublés de 7 à 22 m², à partir de 150 € HT/mois, charges, fibre, mobilier, parking et domiciliation inclus, engagement dès 1 mois, 0 € de frais d'entrée
-- [Domiciliation d'entreprise](https://www.telexal.fr/domiciliation) : siège social au 2 rue Thomas Edison, à partir de 29 € HT/mois (34,80 € TTC), agrément préfectoral, courrier notifié par email puis scanné ou à retirer sur place, engagement minimum 3 mois
-- [Permanence téléphonique](https://www.telexal.fr/permanence-telephonique) : appels décrochés au nom du client par une équipe sur place, à partir de 45 € HT/mois + 1 € HT par appel, message transmis après chaque appel
-- [Salles de réunion](https://www.telexal.fr/salle-de-reunion) : salle Edison (22 m², 12 personnes) et salle Volta (16 m², 8 personnes), 15 € HT/heure, 40 € HT la demi-journée, 60 € HT la journée
+- [Location de bureaux équipés](https://www.telexal.fr/bureaux-equipes) : 30 bureaux privatifs meublés de 7 à 22 m², à partir de 375 €/mois, charges, fibre, mobilier, parking et domiciliation inclus, engagement dès 1 mois, 0 € de frais d'entrée
+- [Domiciliation d'entreprise](https://www.telexal.fr/domiciliation) : siège social au 2 rue Thomas Edison, à partir de 29 €/mois, agrément préfectoral, courrier notifié par email puis scanné ou à retirer sur place, engagement minimum 3 mois
+- [Permanence téléphonique](https://www.telexal.fr/permanence-telephonique) : appels décrochés au nom du client par une équipe sur place, à partir de 45 €/mois + 1 € par appel, message transmis après chaque appel
+- [Salles de réunion](https://www.telexal.fr/salle-de-reunion) : salle Edison (22 m², 10 personnes) et salle Volta (16 m², 8 personnes), 15 €/heure, 40 € la demi-journée, 60 € la journée
 - [Secrétariat externalisé](https://www.telexal.fr/secretariat) : tâches administratives ponctuelles ou régulières, sur devis
 
 ## Contact et visite
