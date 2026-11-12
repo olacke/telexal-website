@@ -116,6 +116,15 @@ Oui, les locataires ont un accès sécurisé 24h/24 et 7j/7.
 **Peut-on domicilier une micro-entreprise ?**
 Oui, la domiciliation s'adresse aux sociétés, aux micro-entrepreneurs et aux établissements secondaires.
 
+**Quels documents faut-il pour se domicilier ?**
+Une pièce d'identité du représentant légal et des bénéficiaires effectifs, un justificatif de domicile, puis la signature du contrat de domiciliation.
+
+**Faut-il changer de numéro pour la permanence téléphonique ?**
+Non : la ligne actuelle peut être renvoyée vers le standard Telexal, ou Telexal attribue un numéro dédié. Un message est envoyé par email après chaque appel.
+
+**Comment réserver une salle de réunion ?**
+Par téléphone au 03 88 18 37 37 ou via le formulaire de contact du site.
+
 **Comment visiter le centre ?**
 En réservant sur https://www.telexal.fr/visite ou en appelant le 03 88 18 37 37. La visite est gratuite et dure environ 30 minutes.
 
