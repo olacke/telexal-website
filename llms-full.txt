@@ -2,7 +2,7 @@
 
 > Centre d'affaires à Mundolsheim, à 6 km au nord de Strasbourg (Bas-Rhin, Alsace), en activité depuis plus de 40 ans : location de bureaux équipés, domiciliation d'entreprise agréée, permanence téléphonique, salles de réunion et secrétariat externalisé.
 
-Mise à jour : 11 novembre 2026. Tous les prix indiqués sont des prix de départ.
+Mise à jour : 20 novembre 2026. Tous les prix indiqués sont des prix de départ.
 
 ---
 
@@ -138,6 +138,30 @@ En réservant sur https://www.telexal.fr/visite ou en appelant le 03 88 18 37 37
 - Coworking ou bureau privatif : https://www.telexal.fr/coworking-bureau-privatif
 - Externaliser sa permanence téléphonique : https://www.telexal.fr/externaliser-permanence-telephonique
 - Pourquoi s'installer aux portes de Strasbourg : https://www.telexal.fr/pourquoi-installer-entreprise-strasbourg
+
+## Zones desservies (pages locales)
+
+Telexal propose la domiciliation et la location de bureaux aux entreprises de tout le nord de Strasbourg. Repères indicatifs depuis le centre de chaque commune, hors heures de pointe :
+
+- Strasbourg (gare) : environ 8 km, 15 minutes en voiture ; TER jusqu'à la gare de Mundolsheim (moins de 10 minutes) puis 8 minutes à pied ; bus CTS 60 depuis Wacken. Page : https://www.telexal.fr/domiciliation-entreprise-strasbourg
+- Schiltigheim : environ 6 km, 10 à 15 minutes en voiture ; bus CTS 60 depuis l'Espace Européen de l'Entreprise. Page : https://www.telexal.fr/domiciliation-schiltigheim
+- Bischheim : environ 5 km, une dizaine de minutes ; bus CTS 60 (arrêt Marc Seguin). Page : https://www.telexal.fr/domiciliation-bischheim
+- Hoenheim : environ 4 km, moins de 10 minutes ; pôle d'échanges Hoenheim Gare (tram B, TER, bus). Page : https://www.telexal.fr/domiciliation-hoenheim
+- Vendenheim : environ 4 km, 5 à 8 minutes ; une station de TER jusqu'à Mundolsheim, bus CTS 75. Page : https://www.telexal.fr/domiciliation-vendenheim
+- Brumath : environ 12 km par l'A4, 15 minutes ; TER avec correspondance à Vendenheim (environ 35 minutes). Page : https://www.telexal.fr/domiciliation-brumath
+
+Fiscalité et formalités utiles :
+
+- Mundolsheim, Strasbourg, Schiltigheim, Bischheim, Hoenheim et Vendenheim font partie de l'Eurométropole de Strasbourg (33 communes, fiscalité professionnelle unique) : taux de CFE unique de 26,83 % en 2026.
+- Brumath fait partie de la Communauté d'agglomération de Haguenau, qui vote son propre taux de CFE.
+- Une entreprise domiciliée sans autre local paie la cotisation minimum de CFE à l'adresse de domiciliation ; exonération de cotisation minimum jusqu'à 5 000 € de chiffre d'affaires.
+- Toutes ces communes relèvent du greffe du tribunal judiciaire de Strasbourg (en Alsace-Moselle, le registre du commerce est tenu par le tribunal judiciaire) : un transfert de siège entre elles ne demande qu'une annonce légale, au forfait de 109 € HT en 2026.
+
+Guides bureaux :
+
+- Bureaux à louer à Strasbourg Nord (marché, coût d'un bail 3/6/9, alternatives) : https://www.telexal.fr/bureaux-a-louer-strasbourg-nord
+- Bureaux à louer dans l'Eurométropole de Strasbourg (comparatif des pôles tertiaires) : https://www.telexal.fr/bureaux-a-louer-eurometropole-strasbourg
+- Guide par commune de la domiciliation au nord de Strasbourg : https://www.telexal.fr/domiciliation-strasbourg-nord
 
 ## Réseaux et partenaires
 

@@ -3,13 +3,13 @@
   <!-- Pages principales -->
   <url>
     <loc>https://www.telexal.fr/</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.telexal.fr/bureaux-equipes</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -21,7 +21,7 @@
   </url>
   <url>
     <loc>https://www.telexal.fr/domiciliation</loc>
-    <lastmod>2026-11-11</lastmod>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -96,6 +96,56 @@
   <url>
     <loc>https://www.telexal.fr/pourquoi-installer-entreprise-strasbourg</loc>
     <lastmod>2026-11-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Pages locales (zones desservies) -->
+  <url>
+    <loc>https://www.telexal.fr/domiciliation-strasbourg-nord</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.telexal.fr/domiciliation-schiltigheim</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.telexal.fr/domiciliation-bischheim</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.telexal.fr/domiciliation-hoenheim</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.telexal.fr/domiciliation-vendenheim</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.telexal.fr/domiciliation-brumath</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.telexal.fr/bureaux-a-louer-strasbourg-nord</loc>
+    <lastmod>2026-11-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.telexal.fr/bureaux-a-louer-eurometropole-strasbourg</loc>
+    <lastmod>2026-11-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
